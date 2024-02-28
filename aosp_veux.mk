@@ -12,8 +12,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from veux device
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
-# Inherit some common Android stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common PixelBuilds stuff.
+$(call inherit-product, vendor/pb/config/common_full_phone.mk)
 
 # Some stuff.
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
