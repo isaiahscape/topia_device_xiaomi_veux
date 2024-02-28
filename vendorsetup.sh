@@ -14,7 +14,7 @@ git clone https://gitlab.com/MrTopia/vendor_xiaomi_veux vendor/xiaomi/veux
 
 echo "Cloning hardware related stuff..."
 # Hardware
-git clone https://github.com/isaiahscape/hardware_xiaomi hardware/xiaomi
+git clone PixelBuildsROM/android_hardware_xiaomi hardware/xiaomi
 
 echo "Cloning Gcam stuff..."
 # Gcam
