@@ -15,8 +15,18 @@ $(call inherit-product, device/xiaomi/veux/device.mk)
 # Inherit some common Android stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# BOOT_ANIMATION
+# Some stuff.
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_USES_AOSP_RECOVERY := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+
+# Pixel Charger
+USE_PIXEL_CHARGER := true
+
+# Face unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
 	
 # Device identifier
 PRODUCT_NAME := aosp_veux
